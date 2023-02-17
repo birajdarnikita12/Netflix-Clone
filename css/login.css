@@ -13,7 +13,7 @@
     background-size: cover;
     min-height: 100vh;
     height: 150vh;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8)), url(/images/header-image.png);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8)), url(../images/header-image.png);
     display: flex;
     flex-direction: column;
     align-items: center;
