@@ -11,7 +11,7 @@
 .header{
     height: 94vh;
     width: 100%;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8)), url(images/header-image.png);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8)), url(../images/header-image.png);
     background-size: cover;
     background-position: center;
     padding: 0px 8px;
@@ -106,8 +106,7 @@ nav button{
     margin-top: 280px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    align-items: center;   
   }
   .header-content h1{
     font-size: 3rem;
@@ -352,7 +351,7 @@ input[type="radio"]{
    @media only screen and (max-width: 600px){
     
     .header{
-      height: 80vh;
+      height: 85vh;
     }
           
       /* Navber */
