@@ -9,7 +9,7 @@
     color: #fff;
 }
 .header{
-    height: 94vh;
+    height: 98.5vh;
     width: 100%;
     background-image:linear-gradient(rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8)), url(../images/header-image.png);
     background-size: cover;
@@ -27,15 +27,15 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 0;  
-    height: 5.375rem; 
-    width: 78%;
-    margin: 0 11.5%;
+    /* padding: 10px 0;   */
+    height: 50px; 
+    width: 94%;
+    margin: 25px 60px;
     top: 0;
 }
 .logo{
-    height: 40px;
-    width: 148px;
+    height: 50px;
+    width: 158px;
     cursor: pointer;
 }
 .nav-button{
@@ -103,17 +103,20 @@ nav button{
     color: #fff;
     position: absolute;
     text-align: center;
-    margin-top: 280px;
+    margin-top: 250px;
     display: flex;
     flex-direction: column;
-    align-items: center;   
+    align-items: center; 
+    width: 950px;  
   }
   .header-content h1{
-    font-size: 3rem;
-    font-weight: 900;
-    line-height: 70px;
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 70.4px;
     letter-spacing: 0;
     font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    margin: 0 75px;
+    padding: 0 70px;
   }
   .header-content h3{
     font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
@@ -137,17 +140,18 @@ nav button{
   .header-content input{
     font-size: 1rem;
     font-weight: 400;
-    height: 56px;
-    width: 385px;
+    height: 58px;
+    width: 480px;
     padding: 8px 16px;
     border-width: 1px;
     border-style: solid;
     border-radius: 0.25rem;
-    background: rgba(22, 22, 22, 0.7);
+    /* background: rgba(22, 22, 22, 0.7); */
+    background: white;
     border-color: rgba(128, 128, 128, 0.7);
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
-    color: rgb(255, 255, 255);
+    color: black;
   }
   .header-content button{
     background: #E50914;
@@ -160,8 +164,8 @@ nav button{
     font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
     font-size: 1.5rem;
     font-weight: 500;
-    height: 56px;
-    width: 201px;
+    height: 58px;
+    width: 245px;
   }
   .header-content button:hover{
     background: #B80F17;
@@ -209,7 +213,7 @@ nav button{
   /* FAQ */
 
   .faq{
-    margin: 70px 174px;
+    margin: 70px 182px;
   }
   .faq h1{
     font-size: 3rem;
@@ -220,6 +224,7 @@ nav button{
   }
 .accordion li{
   list-style: none;
+  padding: 0 180px;
   margin-bottom: 8px;
 }
 .accordion li label{
@@ -282,11 +287,11 @@ input[type="radio"]{
   border-width: 1px;
   border-style: solid;
   border-radius: 0.25rem;
-  background: rgba(22, 22, 22, 0.7);
+  background: white;
   border-color: rgba(128, 128, 128, 0.7);
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
-  color: rgb(255, 255, 255);
+  color: black;
 }
 .faq-bottom button{
   background: #E50914;
@@ -308,35 +313,38 @@ input[type="radio"]{
 /* Footer */
 
 .footer{
-  color: rgba(255, 255, 255, 0.7);
   font-size: 1rem;
   font-weight: 400;
-  margin: 70px 174px;
+  margin: 70px 280px;
+  color: rgb(115, 115, 115);
 }
 .footer-title{
   padding: 12px 0;
   margin-bottom: 12px;
 }
 .footer-title a{
-  color: rgba(255, 255, 255, 0.7);
+  color: rgb(115, 115, 115);
+  text-decoration: none;
 }
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
   row-gap: 0.75rem;
   padding: 12px 0;
 }
 .grid-item {
   text-align: left;
+  
 }
 .grid-item a{
-  color: rgba(255, 255, 255, 0.7);
+  color: rgb(115, 115, 115);
+  text-decoration: none;
 }
 .bottom-btn{
   padding: 12px 0;
 }
 .bottom-btn button{
-    color: #fff;
+    color: rgb(115, 115, 115);
     border-radius: 4px;
     margin: 10px;
     margin-left: 0;
@@ -351,7 +359,7 @@ input[type="radio"]{
    @media only screen and (max-width: 600px){
     
     .header{
-      height: 85vh;
+      height: 73vh;
     }
           
       /* Navber */
@@ -399,24 +407,27 @@ input[type="radio"]{
   .header-content{
     margin-top: 120px;
     width: 92%;
-    height: 327px;
+    height: 300px;
     justify-content: space-between;
   }
   .header-content h1{
-    font-size: 2rem;
+    font-size: 1.75rem;
     font-weight: 700;
-    height: 25%;
-    line-height: 45px;
+    /* height: 25%; */
+    line-height: 30px;
+    padding: 0;
+    margin: 0;
   }
   .header-content h3{
-    margin: 1rem 0 0;
-    font-size: 1.125rem;
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 1.1rem;
     font-weight: 400;
   }
   .header-body{
     height: 182px;
     width: 100%;
-    margin: 24px 0 0 0;
+    margin: 16px 0 0 0;
     padding: 0 24px;
   }
   .header-content p{
@@ -424,21 +435,23 @@ input[type="radio"]{
     margin: 0;
     font-size: 1.125rem;
     font-weight: 400;
+    line-height: 23px;
   }
   .email-signup{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 16px;
-    height: 112px;
+    margin-top: 12px;
+    height: 100px;
     }
   .header-content input{
+    height: 48px;
     width: 100%;
-    }
+  }
   .header-content button{
     height: 40px;
-    width: 132px;
-    margin-top: 16px;
+    width: 130px;
+    margin-top: 12px;
     padding: 8px 16px;
     font-size: 18px;
     font-weight: 500;
@@ -447,9 +460,9 @@ input[type="radio"]{
     /* -- Features -- */
 
     .text h1{
-      font-size: 2rem;
+      font-size: 1.625rem;
       font-weight: 700;  
-      line-height: 2.550rem;    
+      line-height: 1.875rem;    
     }
     .text h3{
       font-size: 1.125rem;
@@ -457,7 +470,7 @@ input[type="radio"]{
     }
     .container{
       flex-direction: column;
-      margin: 56px 24px;
+      margin: 50px 24px;
     }
     .even{
       flex-direction: column-reverse;
@@ -474,19 +487,20 @@ input[type="radio"]{
 
       /* FAQ */
       .faq{
-        margin: 56px 24px;
+        margin: 56px 0;
       }
       .faq h1{
-        font-size: 2rem;
-        font-weight: 700;
-        line-height: 2.550rem;    
+        font-size: 1.625rem;
+        font-weight: 600;
+        line-height: 1.875rem;    
       }
       .accordion li label{
         font-size: 18px;
         font-weight: 400;
+        height: 53px;
       }
       label::after{
-        font-size: 18px;
+        font-size: 36px;
       }
       .accordion input[type="radio"]:checked + label + .content{
         font-size: 18px;
@@ -494,7 +508,7 @@ input[type="radio"]{
       }
       .faq-bottom{
         margin: 0;
-        margin-top: 45.600px;
+        margin-top: 40px;
         padding: 0 24px;
       }
       .faq-bottom p{
@@ -502,6 +516,8 @@ input[type="radio"]{
         width: 100%;
         font-size: 1.125rem;
         font-weight: 400;
+        line-height: 1.6rem;
+        padding: 0 14px;
       }
       .faq-bottom input{
         width: 100%;
@@ -523,10 +539,10 @@ input[type="radio"]{
         .footer{
           margin: 0 24px;
           padding: 20px 0;
-          font-size: 0.875rem;
+          font-size: 0.875rem; 
         }
         .grid-container{
-          grid-template-columns: auto;
+          grid-template-columns: auto auto;
           font-weight: 400;
         }
         .bottom-btn{
@@ -549,7 +565,7 @@ input[type="radio"]{
    @media only screen and (max-width: 800px) and  (min-width: 600px){
 
     .header{
-      height: 68vh;
+      height: 55vh;
       padding: 0;
     }  
     nav{
