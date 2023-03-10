@@ -494,6 +494,9 @@ input[type="radio"]{
         font-weight: 600;
         line-height: 1.875rem;    
       }
+      .accordion li{
+        padding: 0 20px;
+      }
       .accordion li label{
         font-size: 18px;
         font-weight: 400;
@@ -565,7 +568,7 @@ input[type="radio"]{
    @media only screen and (max-width: 800px) and  (min-width: 600px){
 
     .header{
-      height: 55vh;
+      height: 80vh;
       padding: 0;
     }  
     nav{
@@ -670,5 +673,12 @@ input[type="radio"]{
       }
       .footer{
         margin: 20px 32px;
+      }
+      .accordion li{
+        padding: 0 10px;
+      }
+      .grid-container{
+        grid-template-columns: auto auto auto;
+        font-weight: 400;
       }
 }
